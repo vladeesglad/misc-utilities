@@ -21,7 +21,7 @@ public class testMoreString {
         
         system.debug(containsnot);
         
-        noapstr = morestring.removeHTML(apstr);
+        noapstr = morestring.removeSomeHTML(apstr);
         
         containsnot = noapstr.contains('<br>');
         
