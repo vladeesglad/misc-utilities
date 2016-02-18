@@ -5,7 +5,7 @@ public class moreString {
     //  SOME HAVE BEEN REPLACED WITH NICE REGEXES!!! :)
 
     
-    public static string removeHTML (string userinput) {
+    public static string removeSomeHTML (string userinput) {
         
         string repaired = '';
         
