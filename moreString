@@ -25,14 +25,16 @@ public class moreString {
         string tmp = '';
         string newitem = '';
         
-        itemlen = userinput.length();    
-        for (uu = 0; uu < itemlen; uu++) {
-            tmp = userinput.substring(uu, uu + 1);
-            if (tmp.isnumeric()) {
-                newitem += tmp;
-                continue;
-            }        
-        }
+        if(!string.isblank(userinput) {
+        	itemlen = userinput.length();    
+        		for (uu = 0; uu < itemlen; uu++) {
+            			tmp = userinput.substring(uu, uu + 1);
+            			if (tmp.isnumeric()) {
+                			newitem += tmp;
+                			continue;
+            	}        
+        	}
+        	}
         system.debug(newitem);
         return newitem;
     }
